@@ -1,0 +1,61 @@
+GitHub
+Setting Up GitHub Account:
+
+Create an account on GitHub.
+Follow the onboarding instructions to set up your profile.
+Creating a Repository:
+
+Go to your GitHub profile and click on "Repositories" -> "New".
+Fill in the repository name, description, and choose visibility (public/private).
+Click "Create repository".
+Cloning a Repository:
+
+Open the repository on GitHub.
+Click on the "Code" button and copy the URL.
+Open your terminal and navigate to the directory where you want to clone the repository.
+Run git clone <repository-url>.
+Basic Git Commands:
+
+git status: Check the status of your working directory.
+git add <file>: Stage changes for commit.
+git commit -m "message": Commit changes with a message.
+git push: Push changes to the remote repository.
+git pull: Fetch and merge changes from the remote repository.
+Visual Studio Code (VS Code)
+Installation:
+
+Download and install VS Code from Visual Studio Code.
+Setting Up Git Integration:
+
+Open VS Code.
+Go to the Source Control view by clicking the Source Control icon in the sidebar or pressing Ctrl+Shift+G.
+If you have a Git repository in your workspace, VS Code will detect it and show you changes, commits, and other Git operations.
+Common VS Code Features:
+
+Extensions: Install extensions to add functionality. For Git, you might want to install "GitLens" for enhanced Git capabilities.
+Integrated Terminal: Open the terminal in VS Code by selecting Terminal -> New Terminal from the menu or pressing Ctrl+ (backtick).
+Debugging: Set breakpoints and run your code in debug mode by clicking the Debug icon in the sidebar.
+Editing Code:
+
+You can open files by dragging them into the editor or by using File -> Open File.
+Use the sidebar to navigate through your project files.
+Using the Terminal on Your Laptop
+Basic Commands:
+
+cd <directory>: Change the current directory.
+ls (or dir on Windows): List files and directories in the current directory.
+mkdir <directory>: Create a new directory.
+rm <file>: Remove a file. Use rm -r <directory> to remove a directory and its contents.
+Navigating Files:
+
+Use cd to navigate to different directories.
+Use pwd to print the current working directory.
+Running Scripts:
+
+To run a Python script, use python <script.py>.
+For Node.js scripts, use node <script.js>.
+Terminal Shortcuts:
+
+Ctrl+C: Terminate the running process.
+Ctrl+L: Clear the terminal screen.
+Tab: Auto-complete file names and commands.
